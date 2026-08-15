@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="Contact Nikita Healthcare.">
+
+  <title>Contact Us | Nikita Healthcare</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+  <!-- HEADER -->
+  <header class="header">
+
+    <nav class="navbar">
+
+      <a href="index.html" class="logo">
+        NIKITA <span>HEALTHCARE</span>
+      </a>
+
+      <button class="menu-btn" onclick="toggleMenu()">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+
+        <li>
+          <a href="about.html">About</a>
+        </li>
+
+        <li>
+          <a href="contact.html" class="active">
+            Contact
+          </a>
+        </li>
+
+      </ul>
+
+    </nav>
+
+  </header>
+
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+
+    <div>
+
+      <p class="eyebrow">
+        GET IN TOUCH
+      </p>
+
+      <h1>
+        Contact Us
+      </h1>
+
+    </div>
+
+  </section>
+
+
+  <!-- CONTACT -->
+  <section class="contact-section">
+
+    <!-- INFORMATION -->
+    <div class="contact-info">
+
+      <p class="section-label">
+        CONTACT NIKITA HEALTHCARE
+      </p>
+
+      <h2>
+        We're Here To Help
+      </h2>
+
+      <div class="green-line left"></div>
+
+      <p>
+        For general enquiries, please use
+        the contact form or visit our address.
+      </p>
+
+
+      <!-- ADDRESS -->
+      <div class="contact-detail">
+
+        <div class="contact-icon">
+          📍
+        </div>
+
+        <div>
+
+          <h3>
+            Address
+          </h3>
+
+          <p>
+            164 Ramganj
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- OWNER -->
+      <div class="contact-detail">
+
+        <div class="contact-icon">
+          👤
+        </div>
+
+        <div>
+
+          <h3>
+            Owner
+          </h3>
+
+          <p>
+            Nikita Meena
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- ESTABLISHED -->
+      <div class="contact-detail">
+
+        <div class="contact-icon">
+          📅
+        </div>
+
+        <div>
+
+          <h3>
+            Established
+          </h3>
+
+          <p>
+            1992
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- FORM -->
+    <form
+      class="contact-form"
+      onsubmit="submitContactForm(event)"
+    >
+
+      <h2>
+        Send Us A Message
+      </h2>
+
+      <p>
+        Fill out the form below.
+      </p>
+
+
+      <label for="name">
+        Your Name
+      </label>
+
+      <input
+        type="text"
+        id="name"
+        placeholder="Enter your name"
+        required
+      >
+
+
+      <label for="phone">
+        Phone Number
+      </label>
+
+      <input
+        type="tel"
+        id="phone"
+        placeholder="Enter your phone number"
+        required
+      >
+
+
+      <label for="email">
+        Email Address
+      </label>
+
+      <input
+        type="email"
+        id="email"
+        placeholder="Enter your email"
+      >
+
+
+      <label for="message">
+        Message
+      </label>
+
+      <textarea
+        id="message"
+        rows="6"
+        placeholder="Write your message..."
+        required
+      ></textarea>
+
+
+      <button
+        type="submit"
+        class="submit-btn"
+      >
+        Send Message
+      </button>
+
+    </form>
+
+  </section>
+
+
+  <!-- HEALTH NOTICE -->
+  <section class="health-notice">
+
+    <div>
+
+      <h2>
+        Healthcare Notice
+      </h2>
+
+      <p>
+        This website provides general information
+        and is not a substitute for diagnosis,
+        treatment or professional medical advice.
+        For medical concerns, consult a qualified
+        healthcare professional.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <div class="footer-logo">
+      NIKITA <span>HEALTHCARE</span>
+    </div>
+
+    <p>
+      Care • Wellness • Trust
+    </p>
+
+    <div class="footer-links">
+
+      <a href="index.html">Home</a>
+
+      <a href="about.html">About</a>
+
+      <a href="contact.html">Contact</a>
+
+    </div>
+
+    <p class="copyright">
+      © 2026 Nikita Healthcare. All Rights Reserved.
+    </p>
+
+    <p>
+      Owner: <strong>Nikita Meena</strong>
+    </p>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
